@@ -2,6 +2,40 @@
     background-color:#BA90C6;
 }
 
-.nav-item {
-    color:aliceblue
+.navitems {
+    font-family:'Krub';
+    justify-content: right;
+    padding-right: 100px;
+    
+}
+
+.navbar-brand {
+    padding-left: 20px;
+    font-family: 'Krub';
+}
+
+.hero {
+    margin: 100px auto;
+    width: 60%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.heroheader {
+    display: grid;
+    justify-items: center;
+}
+
+
+h1 {
+    font-family: 'Krub';
+    font-size: 48;
+    float: left;
+}
+
+h3 {
+    font-family: 'Krub';
+    font-size: 32;
 }
